@@ -1,0 +1,36 @@
+PROMISE:
+
+A promise is used to handle the asynchronous result of an operation. JavaScript is designed to not wait for an asynchrnous block of code to completely execute before other synchronous parts of the code can run. For instance, when making API requests to servers, we have no idea if these servers are offline or online, or how long it takes to process the server request.
+
+With Promises, we can defer execution of a code block until an async request is completed. This way, other operations can keep running without interruption.
+
+Promises have three states:
+
+Pending: This is the initial state of the Promise before an operation begins
+Fulfilled: This means the specified operation was completed
+Rejected: The operation did not complete; an error value is usually thrown
+
+const promise = new Promise(function(resolve, reject) {
+  
+})
+const weather = true
+const date    = new Promise(function(resolve, reject) {
+  if (weather) {
+    const dateDetails = {
+      name:     'Cubana Restaurant',
+      location: '55th Street',
+      table:    5
+    };
+
+    resolve(dateDetails)
+  } else {
+    reject(new Error('Bad weather, so no Date'))
+  }
+});
+
+Advantages of Promises:
+
+Better definition of control flow of asynchronous logic
+Reduced coupling
+Better error handling
+Improved readability

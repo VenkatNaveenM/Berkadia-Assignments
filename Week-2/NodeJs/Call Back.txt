@@ -1,0 +1,14 @@
+CALL BACK:
+
+A function simply accepts another function as an argument, this contained function is known as a callback function.
+
+function introduction(firstName, lastName, callback) {
+
+const fullName = `${firstName} ${lastName}`;
+callback(fullName);
+}
+function greeting(name) {
+  console.log(`Hello ${name}, welcome to Scotch!`);
+}
+
+introduction('Venkat','Naveen', greeting);

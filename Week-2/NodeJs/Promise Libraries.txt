@@ -1,0 +1,6 @@
+THE BLUE BIRD PROMISE LIBRARY:
+
+Bluebird is an open source promise library with a rich API and excellent performance. The Bluebird GitHub repo includes benchmarks that show it outperforming other implementations, including the native version in the V8 JavaScript engine used by Node.js and Google Chrome. Bluebird’s author Petka Antonov says native implementations are more focused on matching behavior specifications than performance optimization, which allows carefully tuned JavaScript to outperform native code.
+
+Bluebird offers many other features including elegant ways of managing execution context, wrapping Node.js APIs, working with collections of promises, and manipulating fulfillment values.
+

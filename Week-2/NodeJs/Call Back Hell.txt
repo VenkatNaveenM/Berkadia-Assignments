@@ -1,0 +1,15 @@
+CALL BACK HELL:
+
+Multiple functions can be created independently and used as callback functions. These create multi-level functions. When this function tree created becomes too large, the code becomes incomprehensible sometimes and is not easily refactored. This is known as callback hell.
+
+function setInfo(name) {
+  address(myAddress) {
+    officeAddress(myOfficeAddress) {
+      telephoneNumber(myTelephoneNumber) {
+        nextOfKin(myNextOfKin) {
+          console.log('done'); 
+        };
+      };
+    };
+  };
+}
