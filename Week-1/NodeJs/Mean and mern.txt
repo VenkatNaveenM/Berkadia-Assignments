@@ -1,0 +1,13 @@
+MEAN AND MERN:
+
+MEAN:
+
+MEAN is a set of Open Source components that together, provide an end-to-end framework for building dynamic web applications.
+The MEAN stack is MongoDB, Express.js, AngularJS and Node.js.
+Because all components of the MEAN stack support programs are written in JavaScript, MEAN applications can be written in one language for both server-side and client-side execution environments.
+A common theme in the MEAN stack is JavaScript – every line of code you write can be in the same language. You even access the database using MongoDB's native, Idiomatic JavaScript/Node.js driver. 
+
+MERN:
+
+MERN is a scaffolding tool which makes it easy to build universal apps using Mongo, Express, React and NodeJS.
+It minimises the setup time and gets you up to speed using proven technologies.

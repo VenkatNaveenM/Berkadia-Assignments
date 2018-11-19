@@ -1,0 +1,9 @@
+V8 Engine:
+
+It is powerful opensource Javascript engine provided by google.
+All systems consists of micro processors. These microprocessors work with elecrical signals. The things which are able to see by on screen is because of microprocessors.
+Different javascript engines Thino, Javascript core and SpiderMonkey.
+These engines follow the EMCAScript standards.
+Chromes v8 engine written in c++ and used in chrome and Node.Js .
+V8 can run standalone we can embedded with c++ program.
+In v8 we can add our own function implementaton in c++.

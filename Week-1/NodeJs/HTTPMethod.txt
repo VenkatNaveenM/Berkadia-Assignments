@@ -1,0 +1,29 @@
+HTTP Methods:
+
+-> GET:
+
+Used to retreive data from a server at the specified resource.
+Making a GET request(/Users) gives list of all available users.
+
+-> POST:
+
+Used to send data to the API server to create/update resource.
+It is non idempotent.
+
+-> PUT:
+
+Used to send data to a server to create/update a resource.
+It is idempotent.
+
+-> HEAD:
+
+This method is almost identical to GET, except without the response body.
+In other words, if GET /users returns a list of users, then HEAD /users will make the same request but will not return the list of users.
+
+-> DELETE:
+
+Used to delete the specified resource.
+
+-> OPTIONS:
+
+Used to describe the communication options for the target resource.
