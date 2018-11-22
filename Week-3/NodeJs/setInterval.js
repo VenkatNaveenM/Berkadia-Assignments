@@ -12,6 +12,7 @@ function intervalFunc() {
 }
 setInterval(intervalFunc, 1500);
 
+/*
 C:\Users\Venkat Naveen\Berkadia\Week 3\NodeJs>node setInterval.js
 Cant stop me now!
 Cant stop me now!
@@ -20,3 +21,5 @@ Cant stop me now!
 Cant stop me now!
 Cant stop me now!
 ^C
+
+*/
