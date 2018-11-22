@@ -1,9 +1,10 @@
-/*In object-oriented programming, inheritance is the concept that when a class of objects is defined, 
-any subclass that is defined can inherit the definitions of one or more general classes.
-This means for the programmer that an object in a subclass need not carry its own definition of data
-and methods that are generic to the class (or classes) of which it is a part. This not only speeds up program development;
-it also ensures an inherent validity to the defined subclass object (what works and is consistent about the class will also 
-work for the subclass).*/
+/*
+Object oriented languages support inheritance.
+Since Java script is also a object oriented programming language, it supports inheritance.
+In Object oriented programming languages like C#  and Java to implement inheritance, a class inherits from another class.
+In Java script we don't have concept of classes, so inheritance in Java script is prototype based.
+This means implementing inheritance in Java script is object inherits from another object.
+*/
 
 var ClassA = function() {
     this.name = "class A";
