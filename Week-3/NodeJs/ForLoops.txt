@@ -1,0 +1,55 @@
+For Loop:
+
+a=["Venkat","Naveen","Medarametla"]
+for(var i=0;i<3;i++){
+    console.log(a[i])
+}
+
+Output:
+C:\Users\Venkat Naveen\Berkadia\Week 3\NodeJs>node For.js
+Venkat
+Naveen
+Medarametla
+
+For In:
+
+a=["Venkat","Naveen","Medarametla"]
+a.foo = 'hello';
+for(var i in a){
+    console.log(i)
+}
+
+Output:
+C:\Users\Venkat Naveen\Berkadia\Week 3\NodeJs>node For.js
+0
+1
+2
+foo
+
+For Of:
+
+a=["Venkat","Naveen","Medarametla"]
+a.foo = 'hello';
+for(var i of a){
+    console.log(i)
+}
+
+Output:
+C:\Users\Venkat Naveen\Berkadia\Week 3\NodeJs>node For.js
+Venkat
+Naveen
+Medarametla
+
+
+For Each:
+
+a=["Venkat","Naveen","Medarametla"]
+a.forEach(function(element) {
+  console.log(element);
+});
+
+OutPut:
+C:\Users\Venkat Naveen\Berkadia\Week 3\NodeJs>node For.js
+Venkat
+Naveen
+Medarametla
