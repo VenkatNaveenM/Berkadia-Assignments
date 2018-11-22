@@ -13,7 +13,9 @@ setImmediate((arg) => {
 
 console.log('After immediate');
 
+/*
 C:\Users\Venkat Naveen\Berkadia\Week 3\NodeJs>node setImmediate.js
 Before immediate
 After immediate
 Executing immediate: so immediate
+*/
