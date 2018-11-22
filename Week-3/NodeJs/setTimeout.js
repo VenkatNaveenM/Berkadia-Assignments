@@ -13,5 +13,8 @@ function myFunc(arg) {
   
   setTimeout(myFunc, 1500, '1.5 seconds');
 
+/*
 C:\Users\Venkat Naveen\Berkadia\Week 3\NodeJs>node setTimeout.js
 This is going to Execute after=> 1.5 seconds
+
+*/
