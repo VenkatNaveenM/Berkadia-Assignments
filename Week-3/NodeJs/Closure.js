@@ -11,5 +11,7 @@ function init() {
   }
   init();
 
+
+/*  out put:
 C:\Users\Venkat Naveen\Berkadia\Week 3\NodeJs>node Closure.js
-Venkat Naveen
+Venkat Naveen   */
