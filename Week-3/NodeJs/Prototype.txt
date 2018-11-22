@@ -1,0 +1,1 @@
+When a function is created in Java Script, JavaScript engine addsa prototype property to the function. This prototype property is called Object has a constructor property by default.
