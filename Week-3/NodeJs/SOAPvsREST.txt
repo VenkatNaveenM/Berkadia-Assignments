@@ -1,0 +1,37 @@
+SOAP:
+
+- SOAP stands for Simple Object Access Protocol.
+- SOAP can't use REST because it is a protocol.
+- SOAP uses services interfaces to expose the business logic.
+- JAX-WS is the Java API for SOAP web services.
+- SOAP defines standards to be strictly followed.
+- SOAP requires more bandwidth and resource than REST.
+- SOAP defines its own security.
+- SOAP permits XML data format only.
+
+Advantages of Soap Web Services:
+WS Security: SOAP defines its own security known as WS Security.
+Language and Platform independent: SOAP web services can be written in any programming language and executed in any platform.
+
+Disadvantages of Soap Web Services:
+Slow: SOAP uses XML format that must be parsed to be read. It defines many standards that must be followed while developing the SOAP applications.
+So it is slow and consumes more bandwidth and resource.
+WSDL dependent: SOAP uses WSDL and doesn't have any other mechanism to discover the service.
+
+REST:
+
+- REST stands for REpresentational State Transfer.
+- REST can use SOAP web services because it is a concept and can use any protocol like HTTP, SOAP.
+- REST uses URI to expose business logic.
+- JAX-RS is the Java API for RESTful web services.
+- REST does not define too much standards like SOAP.
+- REST requires less bandwidth and resource than SOAP.
+- RESTful web services inherits security measures from the underlying transport.
+- REST permits different data format such as Plain text, HTML, XML, JSON etc.
+
+Advantages of RESTful Web Services:
+
+Fast: RESTful Web Services are fast because there is no strict specification like SOAP. It consumes less bandwidth and resource.
+Language and Platform independent: RESTful web services can be written in any programming language and executed in any platform.
+Can use SOAP: RESTful web services can use SOAP web services as the implementation.
+Permits different data format: RESTful web service permits different data format such as Plain Text, HTML, XML and JSON.
