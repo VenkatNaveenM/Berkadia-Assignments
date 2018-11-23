@@ -41,7 +41,7 @@ console.log('no errors')
 Output:
 C:\Users\Venkat Naveen\Berkadia\Week 3\NodeJs>node Null-Undefined-Undeclared.js
 no errors
-
+---------------------------------------------------------------------------------------
 NULL:
 
 It means the container is empty.
