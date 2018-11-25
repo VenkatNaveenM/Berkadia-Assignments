@@ -1,0 +1,224 @@
+C:\Users\Venkat Naveen\Berkadia\CRUDoperations>node server.js
+Server running At http://:::9009
+--->Find student:
+{
+    "firstname": "Sai",
+    "lastname": "Jaswanth",
+    "age": 23,
+    "marks": 96,
+    "id": 3
+}
+--->Find All:
+{
+    "student1": {
+        "firstname": "Venkat",
+        "lastname": "Naveen",
+        "age": 22,
+        "marks": 98,
+        "id": 1
+    },
+    "student2": {
+        "firstname": "Sanjeev",
+        "lastname": "Kumar",
+        "age": 24,
+        "marks": 99,
+        "id": 2
+    },
+    "student3": {
+        "firstname": "Sai",
+        "lastname": "Jaswanth",
+        "age": 23,
+        "marks": 96,
+        "id": 3
+    },
+    "student4": {
+        "firstname": "Naveen",
+        "lastname": "Medarametla",
+        "age": 26,
+        "marks": 97,
+        "id": 4
+    }
+}
+After Post-------- Students:
+{
+    "student1": {
+        "firstname": "Venkat",
+        "lastname": "Naveen",
+        "age": 22,
+        "marks": 98,
+        "id": 1
+    },
+    "student2": {
+        "firstname": "Sanjeev",
+        "lastname": "Kumar",
+        "age": 24,
+        "marks": 99,
+        "id": 2
+    },
+    "student3": {
+        "firstname": "Sai",
+        "lastname": "Jaswanth",
+        "age": 23,
+        "marks": 96,
+        "id": 3
+    },
+    "student4": {
+        "firstname": "Naveen",
+        "lastname": "Medarametla",
+        "age": 26,
+        "marks": 97,
+        "id": 4
+    },
+    "Student5": {
+        "firstname": "Venkat",
+        "lastname": "Medarametla",
+        "age": 22,
+        "marks": 98,
+        "id": 5
+    }
+}
+--->Find All:
+{
+    "student1": {
+        "firstname": "Venkat",
+        "lastname": "Naveen",
+        "age": 22,
+        "marks": 98,
+        "id": 1
+    },
+    "student2": {
+        "firstname": "Sanjeev",
+        "lastname": "Kumar",
+        "age": 24,
+        "marks": 99,
+        "id": 2
+    },
+    "student3": {
+        "firstname": "Sai",
+        "lastname": "Jaswanth",
+        "age": 23,
+        "marks": 96,
+        "id": 3
+    },
+    "student4": {
+        "firstname": "Naveen",
+        "lastname": "Medarametla",
+        "age": 26,
+        "marks": 97,
+        "id": 4
+    },
+    "Student5": {
+        "firstname": "Venkat",
+        "lastname": "Medarametla",
+        "age": 22,
+        "marks": 98,
+        "id": 5
+    }
+}
+--->Find All:
+{
+    "student1": {
+        "firstname": "Venkat",
+        "lastname": "Naveen",
+        "age": 22,
+        "marks": 98,
+        "id": 1
+    },
+    "student2": {
+        "firstname": "Sanjeev",
+        "lastname": "Kumar",
+        "age": 24,
+        "marks": 99,
+        "id": 2
+    },
+    "student3": {
+        "firstname": "Sai",
+        "lastname": "Jaswanth",
+        "age": 23,
+        "marks": 96,
+        "id": 3
+    },
+    "student4": {
+        "firstname": "Naveen",
+        "lastname": "Medarametla",
+        "age": 26,
+        "marks": 97,
+        "id": 4
+    },
+    "Student5": {
+        "firstname": "Venkat",
+        "lastname": "Medarametla",
+        "age": 22,
+        "marks": 98,
+        "id": 5
+    }
+}
+Update Successfully-----students:
+{
+    "student1": {
+        "firstname": "Venkat",
+        "lastname": "Naveen",
+        "age": 22,
+        "marks": 100,
+        "id": 1
+    },
+    "student2": {
+        "firstname": "Sanjeev",
+        "lastname": "Kumar",
+        "age": 24,
+        "marks": 99,
+        "id": 2
+    },
+    "student3": {
+        "firstname": "Sai",
+        "lastname": "Jaswanth",
+        "age": 23,
+        "marks": 96,
+        "id": 3
+    },
+    "student4": {
+        "firstname": "Naveen",
+        "lastname": "Medarametla",
+        "age": 26,
+        "marks": 97,
+        "id": 4
+    },
+    "Student5": {
+        "firstname": "Venkat",
+        "lastname": "Medarametla",
+        "age": 22,
+        "marks": 98,
+        "id": 5
+    }
+}
+After deletion------- student list:
+{
+    "student1": {
+        "firstname": "Venkat",
+        "lastname": "Naveen",
+        "age": 22,
+        "marks": 100,
+        "id": 1
+    },
+    "student2": {
+        "firstname": "Sanjeev",
+        "lastname": "Kumar",
+        "age": 24,
+        "marks": 99,
+        "id": 2
+    },
+    "student4": {
+        "firstname": "Naveen",
+        "lastname": "Medarametla",
+        "age": 26,
+        "marks": 97,
+        "id": 4
+    },
+    "Student5": {
+        "firstname": "Venkat",
+        "lastname": "Medarametla",
+        "age": 22,
+        "marks": 98,
+        "id": 5
+    }
+}
