@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-xs-10">
+    <h3>Todo Item List:</h3>
+    <hr>
+    <app-todolist-edit
+    (ingredientAdded)="onIngredientAdded($event)"></app-todolist-edit>
+    <hr>
+    <a href="#" class="list-group-item" 
+    >Total Items:{{count}}</a>
+    <ul class="list-group">
+      <a
+      href="#" class="list-group-item" 
+      style="cursor: pointer"
+      *ngFor="let ingredient of ingredients; let i = index"
+      (click)="onEditItem(i)"
+      >
+        {{ingredient.name}} ({{ingredient.description}})
+      </a>
+    </ul>
+  </div>
+</div>
