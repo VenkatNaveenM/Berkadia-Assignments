@@ -12,3 +12,18 @@ Content Delivery Networks:
 -This is how a CDN works in a nutshell. 
  Of course, as we thought we needed an entire guide to explain the inner workings of content delivery networks,
  the rabbit hole goes deeper.
+-Beyond placing caching servers at the network edge, CDN providers use load balancing and application performance techniques to help data   reach users faster. These techniques include reducing file sizes using compression and special algorithms.
+ 
+A representative list of CDN providers in this growing market include the following:----
+
+Akamai Technologies
+Amazon CloudFront
+CDNetworks Inc.
+CenturyLink
+Cloudflare Inc.
+Fastly Inc.
+Imperva
+Instart Logic
+Limelight Networks and
+Verizon Digital Media Services
+
