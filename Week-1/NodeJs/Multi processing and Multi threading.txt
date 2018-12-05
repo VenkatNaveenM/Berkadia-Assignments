@@ -1,0 +1,36 @@
+MULTI PROCESSING 
+
+In a uni-processor system, only one process executes at a time.
+Multiprocessing is the use of two or more CPUs (processors) within a single Computer system.
+The term also refers to the ability of a system to support more than one processor within a single computer system.
+Now since there are multiple processors available, multiple processes can be executed at a time.
+These multi processors share the computer bus, sometimes the clock, memory and peripheral devices also.
+
+Multi processing system’s working –
+
+With the help of multiprocessing, many processes can be executed simultaneously.
+Say processes P1, P2, P3 and P4 are waiting for execution. Now in a single processor system, firstly one process will execute,
+then the other, then the other and so on.
+But with multiprocessing, each process can be assigned to a different processor for its execution. 
+If its a dual-core processor (2 processors), two processes can be executed simultaneously and thus will be two times faster,
+similarly a quad core processor will be four times as fast as a single processor.
+
+MULTI THREADING
+
+A thread is a basic unit of CPU utilization.
+Multi threading is an execution model that allows a single process to have multiple code segments (i.e., threads) running
+concurrently within the “context” of that process.
+e.g. VLC media player, where one thread is used for opening the VLC media player, one thread for playing a particular song and another thread for adding new songs to the playlist.
+
+Multi threading is the ability of a process to manage its use by more than one user at a time and to manage multiple
+requests by the same user without having to have multiple copies of the program.
+
+Multi threading system’s working –
+
+Say there is a web server which processes client requests.
+Now if it executes as a single threaded process, then it will not be able to process multiple requests at a time.
+Firstly one client will make its request and finish its execution and only then, the server will be able to process another client request.
+This is really costly, time consuming and tiring task. To avoid this, multi threading can be made use of.
+Now, whenever a new client request comes in, the web server simply creates a new thread for processing this request and resumes its
+execution to hear more client requests. So the web server has the task of listening to new client requests and creating threads for
+each individual request. Each newly created thread processes one client request, thus reducing the burden on web server.
