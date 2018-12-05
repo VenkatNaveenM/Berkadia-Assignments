@@ -1,0 +1,14 @@
+Content Delivery Networks:
+
+-Content delivery networks (CDN) are the transparent backbone of the Internet in charge of content delivery.
+-Every one interacts with CDNs on a daily basis; when reading articles on news sites,
+ shopping online, watching YouTube videos or perusing social media feeds.
+-To minimize the distance between the visitors and website server, a CDN stores a cached version of its content
+ in multiple geographical locations (a.k.a., points of presence, or PoPs). 
+-Each PoP contains a number of caching servers responsible for content delivery to visitors within its proximity.
+-CDN puts your content in many places at once, providing superior coverage to users. 
+ For example, when someone in London accesses US-hosted website, it is done through a local UK PoP.
+ This is much quicker than having the visitor’s requests, and your responses, travel the full width of the Atlantic and back.
+-This is how a CDN works in a nutshell. 
+ Of course, as we thought we needed an entire guide to explain the inner workings of content delivery networks,
+ the rabbit hole goes deeper.
