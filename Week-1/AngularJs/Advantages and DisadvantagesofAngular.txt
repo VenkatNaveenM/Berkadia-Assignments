@@ -1,0 +1,17 @@
+ADVANTAGES OF ANGULARJS:
+
+Easy Language – Learning and working on AngularJS is quite easy as few simple modifications can 
+                let you achieve the benefits of AngularJS in minimum possible time.
+Two-way binding of data – Angular JS allows you to do two-way data binding that enables view and model 
+    to coordinate with the changes in one another.
+No need of observable functions – With ANgular JS you would not have to use observable functions as it analyzes the DOM and creates the bindings
+                                  on the basis of Angular-specific element attributes. This saves times in writing lengthy codes.
+Automatically joins the components – Most of the framework require the developers to divide the application into multiple small MVC components and write codes
+                                     to join them again. However AngularJS solves this issue as it combines the components automatically.
+									 
+DISADVANTAGES OF ANGULARJS:
+
+Not Secure – Its applications are not safe. Server side authentication and authorization is necessary to keep an application secure.
+Not Degradable – If user of your application disables the JavaScript then it displays nothing except basic page.
+Complex at times – At times AngularJS becomes complex to handles as there are multiple ways to do the same thing. 
+                   This creates confusion and requires considerable efforts.
