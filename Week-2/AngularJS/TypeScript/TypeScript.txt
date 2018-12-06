@@ -1,0 +1,47 @@
+TYPE SCRIPT:
+
+-JavaScript was introduced as a language for the client side.
+-The development of Node.js has marked JavaScript as an emerging server-side technology too. 
+-However, as JavaScript code grows, it tends to get messier, making it difficult to maintain and reuse the code.
+-Moreover, its failure to embrace the features of Object Orientation, strong type checking and compile-time error checks prevents 
+ JavaScript from succeeding at the enterprise level as a full-fledged server-side technology.TypeScript was presented to bridge this gap.
+-TypeScript is a strongly typed, object oriented, compiled language.
+ It was designed by Anders Hejlsberg (designer of C#) at Microsoft.
+ TypeScript is both a language and a set of tools.
+ TypeScript is a typed superset of JavaScript compiled to JavaScript.
+ In other words, TypeScript is JavaScript plus some additional features.
+-JavaScript is TypeScript, but TypeScript is not JavaScript.
+-TypeScript is an extension (a “superset”) of the JavaScript language.
+-It differentiates itself from competitors like CoffeeScript and Dart in that plain JavaScript code can be intermixed with TypeScript. 
+-But TypeScript has to be compiled into JavaScript before it can run in any JavaScript engine (with a web browser or in node.js).
+-This means you cannot embed TypeScript into a web page directly using <script> tags,
+ but TypeScript (in .ts files) can get compiled into JavaScript (in .js files) for usage.
+
+ Ex:
+ 
+ Typer Script Code:
+ 
+ class Greeter {
+    greeting='Venkat';
+    constructor(message: string) {
+        this.greeting = message;
+    }
+    greet() {
+        return "Hello, " + this.greeting;
+    }
+}
+
+After Compiling (tsc Sample.ts)
+Js code is generated
+
+var Greeter = /** @class */ (function () {
+    function Greeter(message) {
+        this.greeting = 'Venkat';
+        this.greeting = message;
+    }
+    Greeter.prototype.greet = function () {
+        return "Hello, " + this.greeting;
+    };
+    return Greeter;
+}());
+
