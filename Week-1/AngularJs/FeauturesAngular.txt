@@ -1,0 +1,17 @@
+ANGULARJS FEATURES:
+
+Angular has the following key features which makes it one of the powerful frameworks in the market.
+
+MVC – The framework is built on the famous concept of MVC (Model-View-Controller).
+      This is a design pattern used in all modern day web applications. 
+	  This pattern is based on splitting the business logic layer, the data layer, and presentation layer into separate sections. 
+	  The division into different sections is done so that each one could be managed more easily.
+
+Data Model Binding – You don't need to write special code to bind data to the HTML controls. 
+                     This can be done by Angular by just adding a few snippets of code.
+
+Writing less code – When carrying out DOM manipulation a lot of JavaScript was required to be written to design any application. 
+                    But with Angular, you will be amazed with the lesser amount of code you need to write for DOM manipulation.
+
+Unit Testing ready – The designers at Google not only developed Angular but also developed a testing framework called "Karma" 
+                     which helps in designing unit tests for AngularJS applications.

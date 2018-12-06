@@ -1,0 +1,15 @@
+ANGULARJS ARCHITECTURE:
+
+Angular.js follows the MVC architecture (Model-View-Controller)
+
+The Controller represents the layer that has the business logic. 
+User events trigger the functions which are stored inside your controller. 
+The user events are part of the controller.
+
+Views are used to represent the presentation layer which is provided to the end users
+
+Models are used to represent your data. 
+The data in your model can be as simple as just having primitive declarations. 
+For example, if you are maintaining a student application, your data model could just have a student id and a name. 
+Or it can also be complex by having a structured data model. If you are maintaining a car ownership application,
+you can have structures to define the vehicle itself in terms of its engine capacity, seating capacity, etc.

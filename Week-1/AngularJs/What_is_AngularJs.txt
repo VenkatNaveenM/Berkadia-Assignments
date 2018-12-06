@@ -1,0 +1,8 @@
+AngularJS:
+
+-AngularJS is an open source Model-View-Controller framework which is similar to the JavaScript framework.
+-It is a structural framework for dynamic web apps.
+-It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly.
+-Angular JS is probably one of the most popular modern day web frameworks available today. 
+-This framework is used for developing mostly Single Page applications.
+-This framework has been developed by a group of developers from Google itself.
