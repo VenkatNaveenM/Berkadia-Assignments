@@ -1,0 +1,34 @@
+CONCEPTS OF ANGULARJS:
+
+
+Modules – A module can be defined as a container that consists of various application parts.
+          The module is a set of functions defined in a JavaScript file. Module divides an application into small and reusable components.
+		  
+Directives – Directives indicate the compiler to associate a behavior to the DOM element or modify it.
+             Angular JS contains several directives such as ng-app, ng-controller, ng-view, ng-if, etc.
+			 
+Expressions – Angular JS expressions are expressed with {{ }} which indicate a data binding in HTML.
+              These expressions can be added into the HTML templates. Expressions do not support control flow statements while support the filters.
+			  
+Controller – It is a JavaScript object constructor function that controls the AngularJS applications.
+
+Scope – It is a JavaScript object that acts as a bridge between the Controller and the View.
+        It is the source of data in AngularJS. Each data manipulation and assignment takes place with the help of Scope object.
+		
+Data Binding – It coordinates model and view about any changes in either of these two.
+
+Validations- Validations take place with the help of AngularJS forms and controls.
+
+Filters – These let you display the formatting of data on DOM and extend the behavior of directives and binding expressions.
+          Filters format the values or apply specific.
+		  
+Services – These are singletons that are used by directives, controllers, or other services.
+
+Routing – The service $routeProvider handles the operations of Routing. It divides the map into various views.
+          It helps split the Single Page Applications into different views.
+		  
+Dependency Injection – It is a design pattern used to handle the dependencies of various components of a software.
+                       It lets you develop loosely-structured architectures.
+					   
+Testing – The codes developed by Dependency Injections are tested.
+          Some of the popular testing frameworks like Jasmine and Karma are two widely-used technologies.
