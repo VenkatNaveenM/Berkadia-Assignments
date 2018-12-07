@@ -1,0 +1,43 @@
+DATA BINDING:
+
+Communication between Typescript code (Business Logic) and Template (HTML) is called Data binding
+
+Typescript --------output data----------> HTML
+                String Interpolation
+		        Property Binding
+				
+Typescript <------React to users--------- HTML	
+                Event Binding
+				
+String Interpolation:
+
+Syntax :
+
+ {{name}}
+
+Property Binding:
+
+Syntax :
+
+ [property]="data"
+ 
+Event Binding:
+ 
+ (click)="OnCreateServer()"
+ 
+  
+  OnCreateServer{
+      Statements to execute
+  }
+
+-combination of property binding and event binding is Two way data binding
+
+Passing Data:
+
+<input type="text" class="form-control" (input)="OnUpdateServer($event)">
+
+$event - It is word which gives access to the event data.
+
+   OnUpdateServer(event: Event){
+       this.serverName(<HTML.InputElement>event.target).value;
+   }
