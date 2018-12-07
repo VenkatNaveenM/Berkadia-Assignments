@@ -1,0 +1,31 @@
+
+DIRECTIVES:
+
+Directives are instructions in the DOM components are kind of instructions.
+
+'ngIf' - It is structural directive changes structure of DOM
+This method returns true or false
+
+<p *ngIf=" "> </p>
+	 
+ngIf with else condition:
+
+<p *ngIf="   ; else noServer">
+
+<ng-template #noServer>
+       <p>No Server Created</p>
+</ng-template>
+
+-Unlike structural directives, attribute directives don't add or remove elements. They only change the element they were placed on.
+
+ Math.random()>0.5 ? 'Online' :  'Off-line' ;
+
+For every component default constructor is executed without calling it.
+
+ngClass:
+
+[ngClass]="{online: Status==='Online'}"
+
+ngFor:
+
+<app-server *ngFor="let server for servers">
