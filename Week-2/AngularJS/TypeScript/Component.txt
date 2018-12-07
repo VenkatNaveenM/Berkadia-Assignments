@@ -1,0 +1,48 @@
+COMPONENT:
+
+-In Angular when new component is created with help of CLI it is automatically added to root.module.ts
+-Each component can have its own folder
+-Component is a typescript class
+
+export class ServerComponent{   }
+
+DECORATORS:
+
+-Decorators in typescript files are used to enhance the elements (Classes)
+-These are used to tell angular that this is not a normal type script class. This is something special(A Component)
+
+@Component()  <-- Decorator
+
+We have to import it
+
+import { Component } from '@angular/core';
+
+To configure the decorator we have to pass the java script object
+
+@Component({
+     Selector: 'app-server'   <--- Metadata for class
+	 TemplateUrl: './Server'
+	 StyleUrl: './Styles.css'
+})
+
+@NgModule{
+     declarations
+	 imports
+	 providers
+	 bootstrap
+	 }
+	 
+For manual adding component to the angular project creating component is not only enough we have to add it to the NgModule
+
+import { ServerComponent } from '.server/ServerComponent';
+
+declarations[
+    ServerComponent
+	]
+	
+Creating a new component by CLI:
+
+ng generate component component_name
+          or
+    ng g c component_name
+	
