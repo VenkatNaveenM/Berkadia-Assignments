@@ -1,0 +1,13 @@
+  .oddclass{
+      background-color: rgb(92, 86, 81);
+  }
+
+  .evenclass{
+    background-color:  rgb(56, 53, 33);
+}
+.firstclass{
+    background-color:  rgb(226, 144, 50);
+}
+.lastclass{
+    background-color:  rgb(255, 87, 20);
+}

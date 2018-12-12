@@ -1,0 +1,52 @@
+<div class="jumbotron">
+  <h1 class="display-4">Student Details</h1>
+  <button (click)="showData()" class="btn btn-success">Display data</button>
+  <br /> <br /> 
+  Name: <input #studentname>
+  Pin No: <input #pinno>
+  Section: <input #section>
+  Year: <input #year>
+  &nbsp;
+  <button (click)="addData(studentname.value,pinno.value,section.value,year.value)" class="btn btn-success">Enter data</button>
+    <br /><br />
+  <div class="table-responsive">          
+      <table class="table table-bordered table-dark">
+    <tr>
+      <th>
+        ID
+      </th>
+      <th>
+        Name
+      </th>
+      <th>
+        Pin No
+      </th>
+      <th>
+        Section
+      </th>
+      <th>
+        Year
+      </th>
+    </tr>
+    <tr *ngFor="let d of dataset;let i = index; let even = even; let odd = odd;let first = first; let last = last"
+        [ngClass]="{ firstclass: first, lastclass: last,oddclass: odd, evenclass: even }">
+      <td>
+        {{i+1}}
+      </td>
+      <td>
+        {{d.name}}
+      </td>
+      <td>
+        {{d.PinNo}}
+      </td>
+      <td>
+        {{d.Section}}
+      </td>
+      <td>
+        {{d.Year}}
+      </td>
+    </tr>
+  </table>
+  </div>
+  
+</div>
