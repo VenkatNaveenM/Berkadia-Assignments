@@ -1,0 +1,24 @@
+ng-if DIRECTIVE:
+
+-The ng-if directive removes the HTML element if the expression evaluates to false.
+-If the if statement evaluates to true, a copy of the Element is added in the DOM.
+-The ng-if directive is different from the ng-hide, which hides the display of the element, 
+ where the ng-if directive completely removes the element from the DOM.
+ 
+ Syntax:
+ 
+ <element ng-if="expression"></element>
+ 
+@Component({
+  selector: 'ng-if-else',
+  template: `
+    <button (click)="show = !show">{{show ? 'hide' : 'show'}}</button>
+    show = {{show}}
+    <br>
+    <div *ngIf="show; else elseBlock">Text to show</div>
+    <ng-template #elseBlock>Alternate text while primary text is hidden</ng-template>
+`
+})
+class NgIfElse {
+  show: boolean = true;
+}
