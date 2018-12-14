@@ -1,0 +1,26 @@
+res.append(field [, value]):
+
+res.append() is supported by Express v4.11.0+
+
+Appends the specified value to the HTTP response header field. If the header is not already set, it creates the header with the specified value. 
+The value parameter can be a string or an array.
+
+Note: calling res.set() after res.append() will reset the previously-set header value.
+
+res.append('Link', ['<http://localhost/>', '<http://localhost:3000/>']);
+res.append('Set-Cookie', 'foo=bar; Path=/; HttpOnly');
+res.append('Warning', '199 Miscellaneous warning');
+
+-----------------------------------------------------------------------------------
+
+res.attachment([filename]):
+
+Sets the HTTP response Content-Disposition header field to “attachment”. If a filename is given, 
+then it sets the Content-Type based on the extension name via res.type(), and sets the Content-Disposition “filename=” parameter.
+
+res.attachment();
+// Content-Disposition: attachment
+
+res.attachment('path/to/logo.png');
+// Content-Disposition: attachment; filename="logo.png"
+// Content-Type: image/png
