@@ -1,0 +1,17 @@
+ng-switch DIRECTIVE:
+
+-The ng-switch directive lets you hide/show HTML elements depending on an expression.
+-Child elements with the ng-switch-when directive will be displayed if it gets a match, 
+ otherwise the element, and its children will be removed.
+-You can also define a default section, by using the ng-switch-default directive,
+ to show a section if none of the other sections get a match.
+
+ 
+ Syntax:
+ 
+<element ng-switch="expression">
+  <element ng-switch-when="value"></element>
+  <element ng-switch-when="value"></element>
+  <element ng-switch-when="value"></element>
+  <element ng-switch-default></element>
+</element>
