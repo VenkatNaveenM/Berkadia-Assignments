@@ -1,0 +1,11 @@
+.main{
+    background:rgba(250, 68, 68, 0.856);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+
+}
