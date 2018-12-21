@@ -1,0 +1,16 @@
+EXPRESS.ROUTER() :
+
+Syntax:
+
+express.Router([options])
+
+Creates a new router object.
+
+var router = express.Router([options]);
+
+The optional options parameter specifies the behavior of the router.
+
+caseSensitive - Enable case sensitivity.
+mergeParams  - Preserve the req.params values from the parent router. If the parent and the child have conflicting param names,
+               the child’s value take precedence.
+strict - Enable strict routing.
