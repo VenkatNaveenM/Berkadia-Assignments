@@ -1,0 +1,18 @@
+<div class="main pt-4" >
+  <div class="container" style="text-align:center" >
+      <input 
+            type="text" 
+            class="form-control"
+            placeholder="Enter Name"
+            #name
+            ><br />
+            <input 
+            type="password" 
+            class="form-control"
+            placeholder="Password"
+            #pass
+            ><br />
+      <button class="btn btn-success btn-lg"  (click)="toggle(name.value,pass.value)">Login</button> &nbsp;
+      <button class="btn btn-success btn-lg"  (click)="logout()">Logout</button>
+  </div>
+</div>
