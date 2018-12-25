@@ -1,0 +1,80 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  </nav>
+<div class="section-main">
+    <div class="container" role="main">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <h2>Indian Railways</h2>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Train No/Name" #name1/>
+              <button class="btn btn-primary" (click)="searchTrain(name1.value)">Search</button>
+          </div>
+        </div>
+</div>
+</div>
+</div>
+
+  <div class="container" *ngIf="train_data">
+      <div class="col-md-6">
+          <h3>{{train_data.name}}</h3>
+          <h4>Train Number: {{train_data.number}}</h4>
+          <div class="btn-group">
+          <button class="btn btn-primary" (click)="trainRoute(train_data.number)">Route</button>
+          <button class="btn btn-primary" (click)="showTrain(train_data.name)">Available Days</button>
+          <button class="btn btn-primary" (click)="showTrainClass(train_data.name)">Available Classes</button>
+          </div>
+        </div>
+      <hr>
+    </div>
+
+    <div class="table-responsive" *ngIf="train_check">    
+        <h4>Route:</h4>          
+           <table class="table table-bordered table-dark">
+      <tr>
+        <th>Station Name</th>
+        <th>Arrival</th>
+        <th>Departure</th>
+        <th>Distance</th>
+        <th>Halt</th>
+        <th>Day</th>
+      </tr>
+      <tr *ngFor="let route of train_check">
+        <td>{{route.station.name}}({{route.station.code}})</td>
+        <td>{{route.scharr}}</td>
+        <td>{{route.schdep}}</td>
+        <td>{{route.distance}}</td>
+        <td>{{route.halt}}</td>
+        <td>{{route.day}}</td>
+      </tr>
+    </table>
+    </div>
+
+    <div class="table-responsive" *ngIf="train_day">  
+      <h4>Avialable Days:</h4>        
+        <table class="table table-bordered table-dark">
+      <tr>
+        <th>Day</th>
+        <th>Avialable</th>
+      </tr>
+      <tr *ngFor="let day of train_day.days">
+        <td>{{day.code}}</td>
+        <td>{{day.runs}}</td>
+      </tr>
+    </table>
+    </div>
+
+    <div class="table-responsive" *ngIf="train_class">    
+        <h4>Avialable Classes:</h4>          
+           <table class="table table-bordered table-dark">
+      <tr>
+        <th>Class</th>
+        <th>Avialable</th>
+      </tr>
+      <tr *ngFor="let class of train_class.classes">
+        <td>{{class.name}}({{class.code}})</td>
+        <td>{{class.available}}</td>
+      </tr>
+    </table>
+    </div>
