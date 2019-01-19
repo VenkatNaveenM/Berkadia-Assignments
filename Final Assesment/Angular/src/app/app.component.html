@@ -1,0 +1,7 @@
+<div class="container">
+<div class="container" *ngFor="let que of all_questions; index as i" >
+        <h6>{{que.question}}</h6>
+        <div *ngFor="let queoptions of que.options">
+                <input type="radio" (click)="checkAnswers(queoptions,i+1)" name="selection"> {{queoptions}}<br>
+        </div>
+</div>          
